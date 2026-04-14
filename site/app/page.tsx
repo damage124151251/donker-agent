@@ -360,6 +360,20 @@ export default function Home() {
                             </a>
                             <span style={{ color: '#333' }}>|</span>
                             <a
+                                href="https://x.com/DonkerTrader"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:opacity-80 transition"
+                                style={{
+                                    fontFamily: "'Press Start 2P', cursive",
+                                    fontSize: '8px',
+                                    color: '#53d491'
+                                }}
+                            >
+                                TWITTER
+                            </a>
+                            <span style={{ color: '#333' }}>|</span>
+                            <a
                                 href="https://github.com/damage124151251/donker-agent"
                                 target="_blank"
                                 rel="noopener noreferrer"
