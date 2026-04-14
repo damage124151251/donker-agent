@@ -148,13 +148,13 @@ export default function Home() {
                 >
                     <h1
                         className="text-4xl md:text-6xl mb-4 glitch"
-                        data-text="DONKER AGENT"
+                        data-text="DONKER TRADER"
                         style={{
                             fontFamily: "'Press Start 2P', cursive",
                             color: '#53d491'
                         }}
                     >
-                        DONKER AGENT
+                        DONKER TRADER
                     </h1>
                     <p
                         className="text-lg mb-4"

@@ -3,23 +3,23 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
-    title: 'DONKER AGENT | cursed memecoin trading',
+    title: 'DONKER TRADER | cursed memecoin trading',
     description: 'A cursed orange creature that trades memecoins. Sanity goes down, degen goes up. Distributes profits to $DONK holders.',
     keywords: ['solana', 'memecoin', 'trading', 'bot', 'pumpfun', 'donker'],
     icons: {
-        icon: '/donker/donker-logo.png',
-        apple: '/donker/donker-logo.png',
+        icon: '/favicon.png',
+        apple: '/favicon.png',
     },
     openGraph: {
-        title: 'DONKER AGENT',
-        description: 'cursed memecoin trading agent',
+        title: 'DONKER TRADER',
+        description: 'cursed memecoin trading',
         type: 'website',
         images: ['/donker/donker-logo.png'],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'DONKER AGENT',
-        description: 'cursed memecoin trading agent',
+        title: 'DONKER TRADER',
+        description: 'cursed memecoin trading',
         images: ['/donker/donker-logo.png'],
     },
 };
