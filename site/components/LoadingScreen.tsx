@@ -27,7 +27,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
             {/* Grid background */}
             <div className="absolute inset-0 opacity-10"
                 style={{
-                    backgroundImage: 'linear-gradient(rgba(255, 107, 53, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 107, 53, 0.1) 1px, transparent 1px)',
+                    backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px)',
                     backgroundSize: '32px 32px'
                 }}
             />
@@ -52,7 +52,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     <div className="relative w-40 h-40 pixel-corners overflow-hidden"
                         style={{
                             border: '4px solid #53d491',
-                            boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(255, 107, 53, 0.4)'
+                            boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(83, 212, 145, 0.4)'
                         }}
                     >
                         <Image
@@ -99,7 +99,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     <motion.div
                         className="h-full"
                         style={{
-                            background: 'repeating-linear-gradient(90deg, #53d491, #53d491 8px, #FF8C5A 8px, #FF8C5A 16px)'
+                            background: 'repeating-linear-gradient(90deg, #53d491, #53d491 8px, #ffffff 8px, #ffffff 16px)'
                         }}
                         initial={{ width: '0%' }}
                         animate={{ width: '100%' }}

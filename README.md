@@ -1,4 +1,4 @@
-# DONKER AGENT 🟠
+# DONKER AGENT 🟢
 
 A cursed orange creature that trades memecoins on Solana. He has feelings.
 
@@ -109,4 +109,4 @@ MIT
 
 ---
 
-made by a cursed orange creature 🟠
+made by a cursed creature 🟢
