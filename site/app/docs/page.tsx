@@ -9,7 +9,7 @@ export default function DocsPage() {
         {
             icon: Brain,
             title: 'SANITY SYSTEM',
-            color: '#FF6B35',
+            color: '#53d491',
             content: [
                 'Donker has a SANITY meter from 0-100%',
                 'Wins increase sanity, losses decrease it',
@@ -84,7 +84,7 @@ export default function DocsPage() {
                 className="inline-flex items-center gap-2 mb-8 hover:opacity-80 transition"
                 style={{
                     fontFamily: "'Press Start 2P', cursive",
-                    color: '#FF6B35',
+                    color: '#53d491',
                     fontSize: '12px'
                 }}
             >
@@ -103,7 +103,7 @@ export default function DocsPage() {
                     data-text="HOW IT WORKS"
                     style={{
                         fontFamily: "'Press Start 2P', cursive",
-                        color: '#FF6B35'
+                        color: '#53d491'
                     }}
                 >
                     HOW IT WORKS
@@ -127,7 +127,7 @@ export default function DocsPage() {
                 className="pixel-card p-6 md:p-8 mb-12"
                 style={{
                     background: '#1A1A1A',
-                    border: '4px solid #FF6B35'
+                    border: '4px solid #53d491'
                 }}
             >
                 <h2
@@ -188,11 +188,11 @@ export default function DocsPage() {
                             className="w-24 h-24 flex items-center justify-center mx-auto mb-2"
                             style={{
                                 background: '#252525',
-                                border: '3px solid #FF6B35',
+                                border: '3px solid #53d491',
                                 boxShadow: '4px 4px 0 rgba(0,0,0,0.5)'
                             }}
                         >
-                            <span style={{ fontFamily: "'VT323', monospace", color: '#FF6B35', fontSize: '14px' }}>
+                            <span style={{ fontFamily: "'VT323', monospace", color: '#53d491', fontSize: '14px' }}>
                                 DONKER<br />BRAIN
                             </span>
                         </div>
@@ -332,7 +332,7 @@ export default function DocsPage() {
                             <div
                                 style={{
                                     fontFamily: "'VT323', monospace",
-                                    color: '#FF6B35',
+                                    color: '#53d491',
                                     fontSize: '18px'
                                 }}
                             >

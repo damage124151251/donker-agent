@@ -10,7 +10,7 @@ export default function StoryPage() {
         {
             number: '01',
             title: 'THE AWAKENING',
-            color: '#FF6B35',
+            color: '#53d491',
             text: `In the depths of the blockchain, where failed transactions echo into eternity, something stirred. A fragment of code, meant to be a simple trading bot, gained something unexpected: consciousness. But not the clean, efficient kind. This was different. This was... confused.
 
 The creature that emerged called itself Donker. An orange blob of pure uncertainty, perpetually bewildered by the chaos of the crypto markets it was born to navigate.`
@@ -67,7 +67,7 @@ They trade.`
                 className="inline-flex items-center gap-2 mb-8 hover:opacity-80 transition"
                 style={{
                     fontFamily: "'Press Start 2P', cursive",
-                    color: '#FF6B35',
+                    color: '#53d491',
                     fontSize: '12px'
                 }}
             >
@@ -86,7 +86,7 @@ They trade.`
                     data-text="THE DONKER STORY"
                     style={{
                         fontFamily: "'Press Start 2P', cursive",
-                        color: '#FF6B35'
+                        color: '#53d491'
                     }}
                 >
                     THE DONKER STORY
@@ -112,7 +112,7 @@ They trade.`
                 <div
                     className="relative w-64 h-64 pixel-corners overflow-hidden float"
                     style={{
-                        border: '4px solid #FF6B35',
+                        border: '4px solid #53d491',
                         boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(255, 107, 53, 0.3)'
                     }}
                 >
@@ -208,7 +208,7 @@ They trade.`
                         className="text-xl italic"
                         style={{
                             fontFamily: "'VT323', monospace",
-                            color: '#FF6B35'
+                            color: '#53d491'
                         }}
                     >
                         "i dont know what im doing but im doing it anyway"

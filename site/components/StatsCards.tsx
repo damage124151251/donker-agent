@@ -24,7 +24,7 @@ export default function StatsCards({ status }: StatsCardsProps) {
             icon: Wallet,
             label: 'BALANCE',
             value: `${formatSOL(status?.balance_sol)} SOL`,
-            color: '#FF6B35'
+            color: '#53d491'
         },
         {
             icon: status?.total_pnl && status.total_pnl >= 0 ? TrendingUp : TrendingDown,

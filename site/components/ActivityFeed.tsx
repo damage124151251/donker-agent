@@ -27,12 +27,12 @@ export default function ActivityFeed({ thoughts }: ActivityFeedProps) {
         switch (type) {
             case 'startup': return '#00FF88';
             case 'analysis': return '#D97757';
-            case 'buy': return '#FF6B35';
+            case 'buy': return '#53d491';
             case 'profit': return '#00FF88';
             case 'loss': return '#FF3366';
             case 'skip': return '#666666';
             case 'distribute': return '#FFD93D';
-            case 'streak': return '#FF6B35';
+            case 'streak': return '#53d491';
             default: return '#A0A0A0';
         }
     };
@@ -40,7 +40,7 @@ export default function ActivityFeed({ thoughts }: ActivityFeedProps) {
     const getStateColor = (state: string) => {
         switch (state) {
             case 'CONFIDENT': return '#00FF88';
-            case 'NORMAL': return '#FF6B35';
+            case 'NORMAL': return '#53d491';
             case 'NERVOUS': return '#FFD93D';
             case 'COPIUM': return '#D97757';
             case 'FULL_DEGEN': return '#FF3366';
@@ -58,12 +58,12 @@ export default function ActivityFeed({ thoughts }: ActivityFeedProps) {
             className="pixel-card p-4 md:p-6"
             style={{
                 background: '#1A1A1A',
-                border: '4px solid #FF6B35'
+                border: '4px solid #53d491'
             }}
         >
             {/* Header */}
             <div className="flex items-center gap-3 mb-4 pb-3" style={{ borderBottom: '2px solid #252525' }}>
-                <MessageCircle className="w-5 h-5" style={{ color: '#FF6B35' }} />
+                <MessageCircle className="w-5 h-5" style={{ color: '#53d491' }} />
                 <h2
                     className="text-lg"
                     style={{
@@ -156,7 +156,7 @@ export default function ActivityFeed({ thoughts }: ActivityFeedProps) {
                                 <motion.div
                                     key={i}
                                     className="w-3 h-3"
-                                    style={{ background: '#FF6B35' }}
+                                    style={{ background: '#53d491' }}
                                     animate={{
                                         scale: [1, 1.5, 1],
                                         opacity: [0.5, 1, 0.5],

@@ -23,7 +23,7 @@ import PositionsTable from '@/components/PositionsTable';
 import LoadingScreen from '@/components/LoadingScreen';
 
 // Bot wallet address
-const BOT_WALLET = 'BBnch67eok1X6oBUnHoBZm65RaURECEP2sqAomTDCtSt';
+const BOT_WALLET = 'AHesmytsqbDq2DanPGxyuGZKe3VUP9vvQoQcjHsyAjaP';
 
 export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
@@ -124,7 +124,7 @@ export default function Home() {
     const getMentalStateColor = (state?: string): string => {
         switch (state) {
             case 'CONFIDENT': return '#00FF88';
-            case 'NORMAL': return '#FF6B35';
+            case 'NORMAL': return '#53d491';
             case 'NERVOUS': return '#FFD93D';
             case 'COPIUM': return '#D97757';
             case 'FULL_DEGEN': return '#FF3366';
@@ -151,7 +151,7 @@ export default function Home() {
                         data-text="DONKER AGENT"
                         style={{
                             fontFamily: "'Press Start 2P', cursive",
-                            color: '#FF6B35'
+                            color: '#53d491'
                         }}
                     >
                         DONKER AGENT
@@ -213,7 +213,7 @@ export default function Home() {
                             className="hover:underline"
                             style={{
                                 fontFamily: "'VT323', monospace",
-                                color: '#FF6B35',
+                                color: '#53d491',
                                 fontSize: '16px'
                             }}
                         >
@@ -341,7 +341,7 @@ export default function Home() {
                                 style={{
                                     fontFamily: "'Press Start 2P', cursive",
                                     fontSize: '8px',
-                                    color: '#FF6B35'
+                                    color: '#53d491'
                                 }}
                             >
                                 DOCS
@@ -353,7 +353,7 @@ export default function Home() {
                                 style={{
                                     fontFamily: "'Press Start 2P', cursive",
                                     fontSize: '8px',
-                                    color: '#FF6B35'
+                                    color: '#53d491'
                                 }}
                             >
                                 STORY
@@ -367,7 +367,7 @@ export default function Home() {
                                 style={{
                                     fontFamily: "'Press Start 2P', cursive",
                                     fontSize: '8px',
-                                    color: '#FF6B35'
+                                    color: '#53d491'
                                 }}
                             >
                                 GITHUB

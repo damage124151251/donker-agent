@@ -142,7 +142,7 @@ export default function TradeHistory({ trades }: TradeHistoryProps) {
                                     className="flex items-center gap-1 mt-2 text-xs hover:underline"
                                     style={{
                                         fontFamily: "'VT323', monospace",
-                                        color: '#FF6B35'
+                                        color: '#53d491'
                                     }}
                                 >
                                     <ExternalLink className="w-3 h-3" />

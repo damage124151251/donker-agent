@@ -12,7 +12,7 @@ export default function ThoughtBubble({ thought }: ThoughtBubbleProps) {
             className="relative p-6 pixel-corners"
             style={{
                 background: '#1A1A1A',
-                border: '4px solid #FF6B35',
+                border: '4px solid #53d491',
                 boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 30px rgba(255, 107, 53, 0.2)'
             }}
         >
@@ -20,7 +20,7 @@ export default function ThoughtBubble({ thought }: ThoughtBubbleProps) {
             <div
                 className="absolute -left-4 top-8 w-4 h-4"
                 style={{
-                    background: '#FF6B35'
+                    background: '#53d491'
                 }}
             />
             <div
@@ -51,7 +51,7 @@ export default function ThoughtBubble({ thought }: ThoughtBubbleProps) {
                         className="absolute -top-2 left-4 text-4xl"
                         style={{
                             fontFamily: "'Press Start 2P', cursive",
-                            color: '#FF6B35',
+                            color: '#53d491',
                             opacity: 0.5
                         }}
                     >
@@ -73,7 +73,7 @@ export default function ThoughtBubble({ thought }: ThoughtBubbleProps) {
                         className="absolute -bottom-6 right-4 text-4xl"
                         style={{
                             fontFamily: "'Press Start 2P', cursive",
-                            color: '#FF6B35',
+                            color: '#53d491',
                             opacity: 0.5
                         }}
                     >

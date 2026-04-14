@@ -39,7 +39,7 @@ export default function DonkerAvatar({ mentalState, sanity }: DonkerAvatarProps)
 
     const getBorderColor = () => {
         if (sanity >= 80) return '#00FF88';
-        if (sanity >= 60) return '#FF6B35';
+        if (sanity >= 60) return '#53d491';
         if (sanity >= 40) return '#FFD93D';
         if (sanity >= 20) return '#D97757';
         return '#FF3366';

@@ -30,7 +30,7 @@ export default function Navbar() {
                     <div
                         className="relative w-10 h-10 overflow-hidden"
                         style={{
-                            border: '2px solid #FF6B35',
+                            border: '2px solid #53d491',
                             boxShadow: '3px 3px 0 rgba(0,0,0,0.5)'
                         }}
                     >
@@ -46,7 +46,7 @@ export default function Navbar() {
                         className="hidden md:block"
                         style={{
                             fontFamily: "'Press Start 2P', cursive",
-                            color: '#FF6B35',
+                            color: '#53d491',
                             fontSize: '14px'
                         }}
                     >
@@ -66,7 +66,7 @@ export default function Navbar() {
                                 style={{
                                     fontFamily: "'Press Start 2P', cursive",
                                     fontSize: '10px',
-                                    color: isActive ? '#FF6B35' : '#A0A0A0',
+                                    color: isActive ? '#53d491' : '#A0A0A0',
                                 }}
                             >
                                 <span className="hidden md:inline">{link.label}</span>
@@ -76,7 +76,7 @@ export default function Navbar() {
                                     <motion.div
                                         layoutId="navbar-indicator"
                                         className="absolute bottom-0 left-0 right-0 h-1"
-                                        style={{ background: '#FF6B35' }}
+                                        style={{ background: '#53d491' }}
                                     />
                                 )}
                             </Link>

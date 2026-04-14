@@ -46,12 +46,12 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     className="relative"
                 >
                     {/* Glowing effect behind */}
-                    <div className="absolute inset-0 blur-3xl bg-[#FF6B35] opacity-40 rounded-full scale-150" />
+                    <div className="absolute inset-0 blur-3xl bg-[#53d491] opacity-40 rounded-full scale-150" />
 
                     {/* Main logo container */}
                     <div className="relative w-40 h-40 pixel-corners overflow-hidden"
                         style={{
-                            border: '4px solid #FF6B35',
+                            border: '4px solid #53d491',
                             boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(255, 107, 53, 0.4)'
                         }}
                     >
@@ -87,7 +87,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     }}
                 >
                     <h2
-                        className="text-2xl text-[#FF6B35] tracking-widest"
+                        className="text-2xl text-[#53d491] tracking-widest"
                         style={{ fontFamily: "'Press Start 2P', cursive" }}
                     >
                         LOADING
@@ -99,7 +99,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     <motion.div
                         className="h-full"
                         style={{
-                            background: 'repeating-linear-gradient(90deg, #FF6B35, #FF6B35 8px, #FF8C5A 8px, #FF8C5A 16px)'
+                            background: 'repeating-linear-gradient(90deg, #53d491, #53d491 8px, #FF8C5A 8px, #FF8C5A 16px)'
                         }}
                         initial={{ width: '0%' }}
                         animate={{ width: '100%' }}
@@ -118,7 +118,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
                     {[0, 1, 2].map((i) => (
                         <motion.div
                             key={i}
-                            className="w-3 h-3 bg-[#FF6B35]"
+                            className="w-3 h-3 bg-[#53d491]"
                             animate={{
                                 scale: [1, 1.5, 1],
                                 opacity: [0.5, 1, 0.5],

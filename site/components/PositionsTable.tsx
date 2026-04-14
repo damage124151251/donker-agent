@@ -85,7 +85,7 @@ export default function PositionsTable({ positions }: PositionsTableProps) {
                                     className="py-3"
                                     style={{
                                         fontFamily: "'VT323', monospace",
-                                        color: '#FF6B35'
+                                        color: '#53d491'
                                     }}
                                 >
                                     {formatSOL(pos.valor_sol)} SOL
